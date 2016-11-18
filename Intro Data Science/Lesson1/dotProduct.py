@@ -44,6 +44,11 @@ def numpy_dot():
 #    df['points'] = df[['gold','silver','bronze']].dot([4, 2, 1])
 #    olympic_points_df = df[['country_name','points']]
 
+#    another better solution
+#    pr=[4,2,1]
+#    medals=[gold,silver,bronze]
+#    points=numpy.dot(pr,medals)
+#    olympic_points_df=DataFrame({'country_name':Series(countries),'points':Series(points)})
 
     return olympic_points_df
 
